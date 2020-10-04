@@ -40,7 +40,7 @@ const getUsers = (request, response) => {
      console.log(request.query);
 
       var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
-      var LED = new Gpio(4, 'out'); //use GPIO pin 4, and specify that it is output
+      var LED = new Gpio(17, 'out'); //use GPIO pin 4, and specify that it is output
       var blinkInterval = setInterval(blinkLED, 250); //run the blinkLED function every 250ms
 
       function blinkLED() { //function to start blinking
