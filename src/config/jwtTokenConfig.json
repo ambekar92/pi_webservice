@@ -1,0 +1,7 @@
+{
+    "accessTokenSecret": "MyApplication",
+    "refreshTokenSecret": "some-secret-refresh-token-shit",
+    "port": 3000,
+    "tokenLife": 999999999999999,
+    "refreshTokenLife": 86400
+}
